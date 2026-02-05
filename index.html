@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Most Extra Valentine Proposal Ever</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="background">
+    <div class="gradient"></div>
+    <div class="floating-hearts" aria-hidden="true"></div>
+  </div>
+
+  <main id="app">
+    <header class="logo">The Most Extra Valentine Proposal Ever. By Your VERY LUCKY boyfriend, Pratyaksh Singh❤️❤️
+    </header>
+
+    <!-- Intro Page -->
+    <section class="page show" data-page="intro">
+      <h1>Hey you.</h1>
+      <p class="lead">I made something for you.<br>Because just asking "wanna be my valentine" like a normal person
+        wasn't enough, and I really wish I could do this face to face, but i tried my best to make it up to
+        you😔😔.<br>So welcome to...<br><strong>The Most Extra Valentine Proposal Ever.</strong></p>
+      <button class="primary" data-next="message">Start ✨</button>
+    </section>
+
+    <!-- Emotional Message Page -->
+    <section class="page" data-page="message">
+      <h2>From Me to You</h2>
+      <p class="card">Dear Rishika, Every little thing you do lights up my day—the way you entertain my bad jokes, the
+        way you listen, the way you somehow know exactly what I need. Talking to you to you makes me happier than ever,
+        and I'm grateful for every minute of us. Today I wanted to put it in pixels: you are my favorite notification,
+        my calm in the chaos, my best and luckiest choice, MERI JAANEMANNNNN.</p>
+      <button class="primary" data-next="slides">Continue ➜</button>
+    </section>
+
+    <!-- Slides Page -->
+    <section class="page" data-page="slides">
+      <h2>The Presentation Portion</h2>
+      <p class="sub">A very serious, totally scientific analysis of why you + me = ❤️❤️.</p>
+      <div class="embed">
+        <iframe title="Very Serious Presentation"
+          src="https://docs.google.com/presentation/d/1vecI1b8J6-QWJCMIiR-wzN6y4d3nWYxNuzXQXsNJST0/embed?start=false&loop=false&delayms=3000"
+          allowfullscreen loading="lazy"></iframe>
+      </div>
+      <a class="ghost"
+        href="https://docs.google.com/presentation/d/1vecI1b8J6-QWJCMIiR-wzN6y4d3nWYxNuzXQXsNJST0/edit?usp=sharing"
+        target="_blank" rel="noopener">Open Very Serious Presentation</a>
+      <button class="primary" data-next="playlist">Next ➜</button>
+    </section>
+
+    <!-- Playlist Page -->
+    <section class="page" data-page="playlist">
+      <h2>Our Little Soundtrack</h2>
+      <p class="sub">These songs remind me of you—soft, bright, a little goofy, and everything I adore, and I listen to
+        them whenever I miss u. Feel free to add to it as well, and we can listen together!!! Tumhare mann pasand
+        youtube pe hi banaya hai, so don't worry.(click the 3 lines in the top right corner of the video or go to
+        link:https://www.youtube.com/playlist?list=PLw8rqbaNqAN5EzWezG2aQivEL8WaP4GbQ for the whole playlist) </p>
+      <div class="embed">
+        <iframe title="YouTube playlist"
+          src="https://www.youtube.com/embed/videoseries?list=PLw8rqbaNqAN5EzWezG2aQivEL8WaP4GbQ"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen loading="lazy"></iframe>
+      </div>
+      <button class="primary" data-next="question">One Last Question...</button>
+    </section>
+
+    <!-- Big Question Page -->
+    <section class="page" data-page="question">
+      <h2 class="big">Dear Rishika, will you PRETTY PLEASE be my Valentine AND MAKE ME THE HAPPIEST BOYFRIEND EVER? 💘
+      </h2>
+      <div class="cta-row">
+        <button class="primary big" id="yes-btn" data-next="celebrate">YES 💖</button>
+        <button class="ghost big" id="no-btn">NO 😈</button>
+      </div>
+      <p class="hint">(Spoiler: the "NO" button is shy.)</p>
+    </section>
+
+    <!-- Celebration Page -->
+    <section class="page" data-page="celebrate">
+      <h2 class="big">LET'S GOOOOOO 💖</h2>
+      <p class="sub">You are officially my Valentine. I can't wait to spend this day with you.</p>
+      <div id="confetti-container" aria-hidden="true"></div>
+      <button class="primary" data-next="rsvp">Final Step ➜</button>
+    </section>
+
+    <!-- RSVP Page -->
+    <section class="page" data-page="rsvp">
+      <h2>Valentine's Day RSVP 💌</h2>
+      <p class="sub">Please fill this out so that I have full conformation of you saying YES.</p>
+      <div class="embed">
+        <iframe title="Google Form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSffVKS_GslOQU5uPMY8Wts4WOXHsH7AKLjDRnYvfvcG5yLH2A/viewform?embedded=true"
+          loading="lazy"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
